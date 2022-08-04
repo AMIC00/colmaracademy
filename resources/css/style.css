@@ -121,3 +121,8 @@ header {
     padding-top: 8px;
     padding-bottom: 8px;
   }
+
+  .part-1 #man-reading {
+    padding-left: 24px;
+    size: 60%;
+  }
