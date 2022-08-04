@@ -93,3 +93,31 @@ header {
       color: white;
     }
   }*/
+
+  .banner {
+    background-color: lightgray;
+  }
+
+  .banner #banner-image {
+    /*padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 32px;
+    padding-bottom: 32px;*/
+    padding: 32px 24px;
+    size: 60%;
+  }
+
+  .banner h3 {
+    font-size: large; /*fix size, font, etc.*/
+  }
+
+  .banner p {
+    font-size: medium; /*fix size etc*/
+  }
+
+  .button {
+    color: white;
+    background-color: grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
