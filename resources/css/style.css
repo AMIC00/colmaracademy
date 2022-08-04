@@ -45,7 +45,7 @@ header {
     padding-right: 24px;
   }
   
-  
+  /*
   header .mobile {
     display: none;
   }
@@ -62,7 +62,7 @@ header {
   
   @media only screen and (max-width: 600px) {
     header .desktop {
-      /*font-family: 'Roboto';*/
+      /*font-family: 'Roboto';
       display: none;
     }
   
@@ -85,11 +85,11 @@ header {
     header .mobile li {
       padding: 0;
     }
-  
+    */
     /*header .mobile .button {
       padding: .1875rem .5rem;
       background-color: #9dc20b;
       line-height: 1.6;
       color: white;
-    }*/
-  }
+    }
+  }*/
