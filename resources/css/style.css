@@ -23,7 +23,7 @@ html {
 
 /*header*/
 header {
-    position: fixed;
+    position: static;
     width: 100%;
     border-bottom: solid 1px #c6c1c1;
     background-color: white;
@@ -74,6 +74,8 @@ header {
   header nav ul {
     display: flex;
     list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: 200;
   }
   
   nav ul li {
@@ -145,7 +147,8 @@ header {
   .banner {
     background-color: lightgray;
     top: 5.3125rem;
-    position: relative;
+    position: static;
+    width: 100%;
   }
 
   .banner #banner-image {
@@ -153,9 +156,14 @@ header {
     padding-right: 24px;
     padding-top: 32px;
     padding-bottom: 32px;*/
+    
     padding: 32px 24px;
-    size: 60%;
-    display: block;
+    width: 60%;
+  
+  }
+
+  .banner .banner-text {
+    float: right;
   }
 
   .banner h3 {
