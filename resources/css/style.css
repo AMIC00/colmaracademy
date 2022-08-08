@@ -211,10 +211,38 @@ header {
     text-align: center;
   }
 
+  /*part one*/
+  .part-1 {
+    background-color: white;
+    display: flex;
+  }
+
   .part-1 #man-reading {
     padding-top: 32px;
     padding-left: 24px;
-    size: 60%;
+    width: 60%;
+  }
+
+  .part-1 .part-1-content {
+    color: black;
+    width: 60%;
+  }
+
+  .part-1-features {
+    max-width: 40%;
+    
+  }
+  
+  .part-1-features-block {
+    display: flex;
+  }
+  .part-1-feature-image-container {
+    height: auto;
+    width: 35%;
+  }
+
+  .part-1-feature-content {
+    width: 65%;
   }
 /* Features Section */
 
